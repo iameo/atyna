@@ -16,6 +16,10 @@ A Pelican theme
 
 ## THEME CONFIGURATIONS
 
+#Add theme:
+
+THEME = '/path/to/atyna'
+
 #### CODE Color schemes.
 
 Set this in pelicanconf.py:
