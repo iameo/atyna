@@ -103,6 +103,6 @@ SCREENSHOTS:
 - My Sister, Augustina. Her name is the reason why the theme is called __atyna__.
 
 
-Copyright & License
-[to be updated]
+## Copyright & License
+MIT LICENCED.
 
