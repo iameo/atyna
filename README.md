@@ -2,7 +2,7 @@
 A Pelican theme
 
 ## Features
-- Responsive design.
+- Responsive design(both on Desktop and Mobile)
 - Jupyter notebook optimized.
 - Scalable(and responsive) images optimized.
 - Reading progress for articles.
