@@ -113,5 +113,5 @@ SCREENSHOTS:
 
 
 ## Copyright & License
-MIT LICENSED.
+[MIT LICENSED](https://github.com/iameo/atyna/blob/master/LICENSE)
 
