@@ -8,7 +8,7 @@ A Pelican theme
 - Reading progress for articles.
 - Share buttons (facebook, twiiter and Google plus)
 - Google Analytics and GAUGES.
-- Code Highlight Styles (github, monokai and xxx)
+- Code Highlight Styles (github, monokai and darkly)
 - Author information for articles and Author page.
 - Disqus support 
 - Last Read (via plugin) [soon to be implemented]
@@ -99,7 +99,7 @@ SCREENSHOTS:
 
 ### ACKNOWLEDGEMENT/CREDIT
 - [GHOST attila](https://attila.zutrinken.com/) - Got my inspiration from here.
-- [PELICAN attila](https://github.com/arulrajnet/attila-demo) - Arulrajnet made a pelican port, from which I made several changes on and added a couple of features.
+- [PELICAN attila](https://github.com/arulrajnet/attila-demo) - Arulrajnet made a pelican port, which served as a helper template for me.
 - My Sister, Augustina. Her name is the reason why the theme is called __atyna__.
 
 
