@@ -16,9 +16,14 @@ A Pelican theme
 
 ## THEME CONFIGURATIONS
 
-#Add theme:
+### Add theme:
 
 THEME = '/path/to/atyna'
+
+#### Basic Site settings
+AUTHOR = 'John Doe'
+SITENAME = 'Johns Blog'
+SITESUBTITLE = 'How I see the tech world'
 
 #### CODE Color schemes.
 
@@ -108,5 +113,5 @@ SCREENSHOTS:
 
 
 ## Copyright & License
-MIT LICENCED.
+MIT LICENSED.
 
