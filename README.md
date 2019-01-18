@@ -2,7 +2,7 @@
 A Pelican theme
 
 ## Features
-- Responsive design.
+- Responsive design(both on Desktop and Mobile)
 - Jupyter notebook optimized.
 - Scalable(and responsive) images optimized.
 - Reading progress for articles.
@@ -15,6 +15,15 @@ A Pelican theme
 
 
 ## THEME CONFIGURATIONS
+
+### Add theme:
+
+THEME = '/path/to/atyna'
+
+#### Basic Site settings
+AUTHOR = 'John Doe'
+SITENAME = 'Johns Blog'
+SITESUBTITLE = 'How I see the tech world'
 
 #### CODE Color schemes.
 
@@ -103,6 +112,6 @@ SCREENSHOTS:
 - My Sister, Augustina. Her name is the reason why the theme is called __atyna__.
 
 
-Copyright & License
-[to be updated]
+## Copyright & License
+[MIT LICENSED](https://github.com/iameo/atyna/blob/master/LICENSE)
 
