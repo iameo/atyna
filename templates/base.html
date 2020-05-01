@@ -56,7 +56,22 @@
       {% endif %}
   {% endfor %}
 
+<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.33.1/plotly.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+
+
+ <!--MATHJAX-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.6.4/math.min.js"></script>
+
+<script src="https://use.fontawesome.com/5441545335.js"></script>
+
+  <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/ipynb.css" type="text/css" rel="stylesheet" />
   <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css" type="text/css" rel="stylesheet" />
+
+
 
   <!-- Code highlight color scheme -->
   {% if COLOR_SCHEME_CSS %}
@@ -66,8 +81,8 @@
   {% endif %}
 
 
-  <!--Font/Icons pack-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
 
 
   {% if CSS_OVERRIDE %}
@@ -89,8 +104,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
   
 
- <!--MATHJAX-->
- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
 
   
   {% endblock head %}
@@ -148,5 +162,11 @@
   {% endif %}
   {% include 'partials/analytics.js' %}
   {% include 'partials/disqus.js' %}
+
+
+
+
+
 </body>
+
 </html>
