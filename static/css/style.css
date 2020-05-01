@@ -1321,6 +1321,24 @@ article .extras a.comments_btn:hover {
     background: #e5e4e1
 }
 
+.container .post.featured .post-title-index:after {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    left: -1.75em;
+    top: 0;
+    margin-top: -0.25em;
+    font-family: 'icons';
+    font-size: 0.5em;
+    font-style: normal;
+    font-weight: normal;
+    content: '\e800';
+    color: inherit;
+    text-align: center;
+    color: #e5e4e1
+}
+
+
 .container .post.featured .post-title:after {
     position: absolute;
     width: 1em;
@@ -1371,11 +1389,45 @@ article .extras a.comments_btn:hover {
     color: #000;
 }
 
+post-title-index {
+    position: relative;
+    z-index: 10;
+    margin: 1.3em 0 0.3em;
+    font-size: 1.8em;
+    line-height: 1em;
+    font-weight: 700;
+    text-indent: -2px;
+    color: #000;
+
+}
+
+
+.post-title-index a {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-weight: 700;
+}
 
 .post-title a {
     text-decoration: none;
     color: rgb(15, 15, 15);
     font-weight: 700;
+}
+
+.post-title-index a:hover {
+    -moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+    position: relative;
+    z-index: 10;
+    margin: 0 0 0.35em;
+    color: rgb(2, 22, 110);
+    line-height: .85em;
+    font-weight: 700;
+    text-indent: -1px;
+    text-transform: uppercase;
 }
 
 .post-title a:hover {
@@ -2146,6 +2198,11 @@ div.output_subarea {
     }
     .post-author-avatar {
         margin: -0.25em 0 0 0.5em
+    }
+
+    .container .post.featured .post-title-index:after {
+        left: 0;
+        top: -1.75em
     }
     .container .post.featured .post-title:after {
         left: 0;
