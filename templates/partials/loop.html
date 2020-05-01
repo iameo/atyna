@@ -21,9 +21,9 @@
 
                 <section class="post-excerpt">
 		{% if article.summary %}
-		     {{ article.summary|truncate(300) }}
+		     {{ article.summary|truncate(400) }}
 		{% else %}
-		     {{ article.content|truncate(300) }}
+		     {{ article.content|truncate(400) }}
 		{% endif %}
 		</section>
 		<div class="extras">

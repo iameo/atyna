@@ -1378,7 +1378,8 @@ article .extras a.comments_btn:hover {
     z-index: 10
 }
 
-.post-title {
+
+post-title-index {
     position: relative;
     z-index: 10;
     margin: 1.1em 0 0.3em;
@@ -1387,28 +1388,10 @@ article .extras a.comments_btn:hover {
     font-weight: 700;
     text-indent: -2px;
     color: #000;
-}
-
-post-title-index {
-    position: relative;
-    z-index: 10;
-    margin: 1.3em 0 0.3em;
-    font-size: 1.8em;
-    line-height: 1em;
-    font-weight: 700;
-    text-indent: -2px;
-    color: #000;
 
 }
-
 
 .post-title-index a {
-    text-decoration: none;
-    color: rgb(15, 15, 15);
-    font-weight: 700;
-}
-
-.post-title a {
     text-decoration: none;
     color: rgb(15, 15, 15);
     font-weight: 700;
@@ -1429,6 +1412,31 @@ post-title-index {
     text-indent: -1px;
     text-transform: uppercase;
 }
+
+
+
+
+.post-title {
+    position: relative;
+    z-index: 10;
+    margin: 2.3em 0 0.3em;
+    font-size: 1.8em;
+    line-height: 1em;
+    font-weight: 700;
+    text-indent: -2px;
+    color: #000;
+}
+
+
+
+
+.post-title a {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-weight: 700;
+}
+
+
 
 .post-title a:hover {
     -moz-transition: all 0.4s ease-in-out;
