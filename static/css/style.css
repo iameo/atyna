@@ -788,14 +788,14 @@ img {
         opacity: .9
     }
 }
-/*
+
 #blog-header {
     position: relative;
     padding: 0 0;
     background: white;
   
 }
-*/
+
 
 /*
 #blog-header:after {
@@ -805,10 +805,10 @@ img {
     left: 50%;
     bottom: 0;
     margin-left: -16em;
-    content: '';
     background: #e5e4e1
 }
 */
+
 
 .tag-template #blog-header {
     padding: 4em 0
@@ -1371,6 +1371,7 @@ article .extras a.comments_btn:hover {
     left: 50%;
     top: 0;
     margin-left: -16em;
+    content: '';
     background: #e5e4e1
 }
 
@@ -2369,11 +2370,10 @@ div.output_subarea {
 }
 
 .container .post::after {
-
     position: absolute;
     width: 15em;
     height: 1px;
-    left: 25%;
+    left: 18%;
     bottom: 0;
     margin: 2px;
     background: #e5e4e1;
@@ -2414,7 +2414,6 @@ div.output_subarea {
     left: 20%;
     bottom: 0;
     margin: -5px;
-    content: '';
     background: #e5e4e1;
 
 }
