@@ -1391,7 +1391,17 @@ h2.article-title {
 
 }
 
+.bounce {
+   margin-bottom: 5px;
+}
 
+h5.tag-title {
+    position: relative;
+    margin: 2.3em 0 0.3em !important;
+    font-size: 1.6em;
+    color: #000;
+
+}
 
 
 .post-title {
@@ -1404,8 +1414,6 @@ h2.article-title {
     text-indent: -2px;
     color: #000;
 }
-
-
 
 
 .post-title a {

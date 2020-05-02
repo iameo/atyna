@@ -26,8 +26,10 @@
 <header>
 <div id="index" class="container">
     <main class="content" role="main">
-        <h5 class="post-title">Tag {{ tag }}</h5>
+    <div class="inner">
+        <h5 class="tag-title">Tag: {{ tag }}</h5>
         <span class="blog-description"><small>Posts: {{ articles|count }}</small></span>
+</div>
         <div class="clear"></div>
       </header>
 
