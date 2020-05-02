@@ -1379,7 +1379,7 @@ article .extras a.comments_btn:hover {
 }
 
 
-article-title {
+h2.article-title {
     position: relative;
     z-index: 10;
     margin: 2.3em 0 0.3em !important;
@@ -1389,28 +1389,6 @@ article-title {
     text-indent: -2px;
     color: #000;
 
-}
-
-article-title a {
-    text-decoration: none;
-    color: rgb(15, 15, 15);
-    font-weight: 700;
-}
-
-article-title a:hover {
-    -moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-    position: relative;
-    z-index: 10;
-    margin: 0 0 0.35em;
-    color: rgb(2, 22, 110);
-    line-height: .85em;
-    font-weight: 700;
-    text-indent: -1px;
-    text-transform: uppercase;
 }
 
 
