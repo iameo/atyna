@@ -2232,7 +2232,6 @@ div.output_subarea {
 }
 
 .container .post::after {
-
     position: absolute;
     width: 25em;
     height: 1px;
@@ -2286,8 +2285,9 @@ div.output_subarea {
     max-width: calc(100% - 3ex) !important;
 }
 
-
 }
+
+
 
 @media only screen and (max-width: 480px) {
     .inner {
