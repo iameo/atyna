@@ -1382,7 +1382,7 @@ article .extras a.comments_btn:hover {
 article-title {
     position: relative;
     z-index: 10;
-    margin: 2.3em 0 0.3em;
+    margin: 2.3em 0 0.3em !important;
     font-size: 1.8em;
     line-height: 1em;
     font-weight: 700;
