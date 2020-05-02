@@ -1321,7 +1321,7 @@ article .extras a.comments_btn:hover {
     background: #e5e4e1
 }
 
-.container .post.featured .post-title-index:after {
+.container .post.featured .article-title:after {
     position: absolute;
     width: 1em;
     height: 1em;
@@ -1379,10 +1379,10 @@ article .extras a.comments_btn:hover {
 }
 
 
-post-title-index {
+article-title {
     position: relative;
     z-index: 10;
-    margin: 1.1em 0 0.3em;
+    margin: 2.3em 0 0.3em;
     font-size: 1.8em;
     line-height: 1em;
     font-weight: 700;
@@ -1391,13 +1391,13 @@ post-title-index {
 
 }
 
-.post-title-index a {
+article-title a {
     text-decoration: none;
     color: rgb(15, 15, 15);
     font-weight: 700;
 }
 
-.post-title-index a:hover {
+article-title a:hover {
     -moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -1419,7 +1419,7 @@ post-title-index {
 .post-title {
     position: relative;
     z-index: 10;
-    margin: 2.3em 0 0.3em;
+    margin: 1.1em 0 0.3em;
     font-size: 1.8em;
     line-height: 1em;
     font-weight: 700;
@@ -2208,7 +2208,7 @@ div.output_subarea {
         margin: -0.25em 0 0 0.5em
     }
 
-    .container .post.featured .post-title-index:after {
+    .container .post.featured .article-title:after {
         left: 0;
         top: -1.75em
     }
