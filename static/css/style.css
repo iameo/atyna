@@ -2147,43 +2147,6 @@ table td:after {
 }
 
 
-@media only screen and (max-width: 640px) {
-
-    .post-share,
-    .post-tags {
-        max-width: none;
-        float: none;
-        margin: 0 0 2em
-    }
-    .post-share a {
-        margin-left: 0;
-        margin-right: 0.666em
-    }
-    .post-nav i {
-        font-size: 1.5em
-    }
-}
-
-div.output_subarea {
-    overflow-x: auto;
-    padding: 0.4em;
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    box-flex: 1;
-    flex: 1;
-    max-width: calc(100% - 3ex) !important;
-}
-
-.output_subarea {
-    overflow-x: auto;
-    padding: 0.4em;
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    box-flex: 1;
-    flex: 1;
-    max-width: calc(100% - 3ex) !important;
-}
-
 
 
 @media only screen and (max-width: 800px) {
@@ -2271,11 +2234,11 @@ div.output_subarea {
 .container .post::after {
 
     position: absolute;
-    width: 15em;
+    width: 25em;
     height: 1px;
     left: 20%;
     bottom: 0;
-    margin: -5px;
+    margin: 0px auto;
     content: '';
     background: #e5e4e1;
 
@@ -2301,7 +2264,7 @@ div.output_subarea {
     .post-nav i {
         font-size: 1.5em
     }
-}
+
 
 div.output_subarea {
     overflow-x: auto;
@@ -2324,6 +2287,7 @@ div.output_subarea {
 }
 
 
+}
 
 @media only screen and (max-width: 480px) {
     .inner {
@@ -2412,9 +2376,9 @@ div.output_subarea {
     position: absolute;
     width: 15em;
     height: 1px;
-    left: 20%;
+    left: 13%;
     bottom: 0;
-    margin: -5px;
+    margin: 2px;
     content: '';
     background: #e5e4e1;
 
