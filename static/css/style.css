@@ -555,7 +555,7 @@ ol {
 }
 
 ul {
-    list-style: none
+    list-style: inherit;
 }
 
 li {
@@ -577,7 +577,6 @@ ol>li:before {
 
 ul>li:before {
     margin-top: 0.25em;
-    content: '*'
 }
 
 ol {
@@ -1910,7 +1909,6 @@ div.output_subarea {
 
 .pagination {
     position: relative;
-    height: 2em;
     margin: 0;
     padding: 2em 0;
     font-family: 'Fira Sans', sans-serif
@@ -1919,12 +1917,12 @@ div.output_subarea {
 .pagination:after {
     position: absolute;
     width: 32em;
-    height: 1px;
+    height: 2px;
     left: 50%;
     bottom: 0;
     margin-left: -16em;
     content: '';
-    background: #e5e4e1
+    background: #e5e4e1;
 }
 
 .pagination a {
@@ -1986,7 +1984,8 @@ div.output_subarea {
     display: block;
     font-size: 0.75em;
     line-height: 2.666em;
-    text-align: center
+    text-align: center;
+    background: #f5f5f5;
 }
 
 .extra-pagination {
