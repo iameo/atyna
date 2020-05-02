@@ -1322,7 +1322,6 @@ article .extras a.comments_btn:hover {
     left: 50%;
     bottom: 0;
     margin-left: -16em;
-    content: '';
     background: #e5e4e1
 }
 
@@ -1372,7 +1371,6 @@ article .extras a.comments_btn:hover {
     left: 50%;
     top: 0;
     margin-left: -16em;
-    content: '';
     background: #e5e4e1
 }
 
@@ -2238,7 +2236,6 @@ div.output_subarea {
     left: 22%;
     bottom: 0;
     margin: 0px auto;
-    content: '';
     background: #e5e4e1;
 
 }
@@ -2379,7 +2376,6 @@ div.output_subarea {
     left: 25%;
     bottom: 0;
     margin: 2px;
-    content: '';
     background: #e5e4e1;
 
 }
