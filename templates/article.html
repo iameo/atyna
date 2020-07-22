@@ -3,11 +3,9 @@
 {% block title %} {{ SITENAME.upper() }} | {{ article.title }}{% endblock %}
 
 
+
 {% block head %}
   {{ super() }}
-
-
-
   <link href="{{ SITEURL }}/{{ article.url }}" rel="canonical" />
   {% for keyword in article.keywords %}
     <meta name="keywords" content="{{ keyword }}" >
@@ -18,7 +16,7 @@
   {% elif article.headline %}
     <meta name="description" content="{{ article.headline }}">
   {% elif article.summary %}
-    <meta name="description" content="{{ article.summary|striptags|truncate(200) }}">
+    <meta name="description" content="{{ article.summary|striptags|truncate(230) }}">
   {% endif %}
 
   {% for author in article.authors %}
@@ -34,7 +32,7 @@
 {% endblock %}
 
 {% block header %}
-    <!-- Progressbar -->
+    <!-- Progress bar -->
     <div class="progress-container">
         <span class="progress-bar"></span>
     </div>
