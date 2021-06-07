@@ -1547,6 +1547,10 @@ h5.tag-title {
     background-color: #292120
 }
 
+.post-share .linkedin:hover {
+    background-color: #090e3b
+}
+
 .post-tags {
     max-width: 75%;
     float: left;
@@ -1642,6 +1646,17 @@ h5.tag-title {
     text-decoration: none;
     font-weight: inherit;
     border-bottom: 1px solid transparent
+}
+
+.article_note {
+    margin-top:43rem;
+    padding-top: 2rem;
+    text-align: center
+}
+
+.no_article {
+    padding: 1rem 0 0 1rem;
+    margin-top: 1rem
 }
 
 .post-comments {
