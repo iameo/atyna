@@ -2262,10 +2262,28 @@ div.output_subarea {
 }
 
 
+@media only screen and (min-width: 1200px) {
+    .post-info {
+        margin-bottom: 6rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .post-info {
+        margin-bottom: 5rem;
+    }
+}
+
 
 
 @media only screen and (max-width: 640px) {
 
+    .post-info {
+        margin-bottom: 5rem;
+    }
+    
     .post-share,
     .post-tags {
         max-width: none;
