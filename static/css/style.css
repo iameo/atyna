@@ -1270,6 +1270,10 @@ img {
 }
 
 
+article {
+    margin-bottom: 5rem;
+}
+
 article .extras {
 	font-size: 10.5px;
 	margin-top: 30px;
