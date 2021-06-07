@@ -1923,7 +1923,7 @@ div.output_subarea {
     bottom: 0;
     margin-left: -16em;
     content: '';
-    background: #e5e4e1;
+    background:whitesmoke;
 }
 
 .pagination a {
@@ -1986,7 +1986,7 @@ div.output_subarea {
     font-size: 0.75em;
     line-height: 2.666em;
     text-align: center;
-    background: #f5f5f5;
+    background: whitesmoke;
 }
 
 .extra-pagination {
