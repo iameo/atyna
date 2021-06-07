@@ -13,6 +13,7 @@ html {
     -webkit-text-size-adjust: 100%;
     font-size: 0.98em;
     overflow-x: auto;
+    min-height: 100vh;
 }
 
 body {
@@ -25,6 +26,8 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    min-height: 100vh;
 }
 
 .prompt {
