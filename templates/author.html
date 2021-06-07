@@ -119,8 +119,15 @@
 
 <div id="index" class="container">
   <main class="content" role="main">
-<div class="bounce"></div>
-    {% include "partials/loop.html" %}
+    <div class="bounce"></div>
+    {% if articles_page.object_list|length > 0 %}
+      <div class="article_note">
+        Articles written so far by {{ author_name }}: {{ articles_page.object_list|length }}
+      </div>
+      {% include "partials/loop.html" %}
+    {% else %}
+      <div class="no_article">No Articles yet</div>
+    {% endif %}
   </main>
 </div>
 {% endblock content %}
