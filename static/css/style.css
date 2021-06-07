@@ -1269,10 +1269,10 @@ img {
     margin-top: 1.333em
 }
 
-
+/* 
 article {
     margin-bottom: 5rem;
-}
+} */
 
 article .extras {
 	font-size: 10.5px;
@@ -1705,7 +1705,8 @@ h5.tag-title {
 
 .post-nav {
     position: relative;
-    border-bottom: 1px solid #e5e4e1
+    border-bottom: 1px solid #e5e4e1;
+    margin-bottom: 7rem;
 }
 
 .post-nav:after {
@@ -2267,16 +2268,16 @@ div.output_subarea {
 
 
 @media only screen and (min-width: 1200px) {
-    .post-info {
-        margin-bottom: 3rem;
+    .post-nav {
+        margin-bottom: 7rem;
     }
 }
 
 
 
 @media only screen and (max-width: 900px) {
-    .post-info {
-        margin-bottom: 2rem;
+    .post-nav {
+        margin-bottom: 7rem;
     }
 }
 
@@ -2284,10 +2285,9 @@ div.output_subarea {
 
 @media only screen and (max-width: 640px) {
 
-    .post-info {
-        margin-bottom: 2rem;
+    .post-nav {
+        margin-bottom: 6rem;
     }
-
     .post-share,
     .post-tags {
         max-width: none;
