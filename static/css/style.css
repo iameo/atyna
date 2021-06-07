@@ -286,7 +286,7 @@ th {
     content: '\e804'
 }
 
-.ic-googleplus:before {
+.ic-linkedin:before {
     content: '\e805'
 }
 
@@ -1543,7 +1543,7 @@ h5.tag-title {
     background-color: #3c5a98
 }
 
-.post-share .googleplus {
+.post-share .linkedin {
     background-color: #292120
 }
 
