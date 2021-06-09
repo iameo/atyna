@@ -1078,7 +1078,8 @@ img {
     height: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
-    box-sizing: border-box
+    box-sizing: border-box;
+    background-color: rgb(22, 30, 75);
 }
 
 #menu .nav-label {
@@ -1123,13 +1124,13 @@ img {
     height: 100%;
     left: 0;
     top: 0;
-    background: #01024d;
+    background: rgb(160, 168, 243);
 }
 
 #menu li a {
     display: block;
     padding: 1.25em 1.5em;
-    color: #212226;
+    color: rgb(235, 235, 235);
     white-space: nowrap;
     text-overflow: ellipsis;
     font-weight: 400
@@ -1137,7 +1138,7 @@ img {
 
 #menu li a:hover,
 #menu li a:focus {
-    color: #000;
+    color: white;
     background: rgba(0, 0, 0, 0.05)
 }
 
@@ -1149,7 +1150,7 @@ img {
 }
 
 #menu li.active a {
-    color: #000;
+    color: whitesmoke;
     font-weight: 500
 }
 
@@ -2338,7 +2339,11 @@ div.output_subarea {
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        }    
+    }    
+
+    #menu {
+        width: 16em;
+    }
     
     pre {
         font-size: 0.93em;
@@ -2406,36 +2411,36 @@ div.output_subarea {
         margin-right: -1em
     }
 
-div.output_subarea {
-    overflow-x: auto;
-    padding: 0.4em;
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    box-flex: 1;
-    flex: 1;
-    max-width: calc(100% - 3ex) !important;
-}
+    div.output_subarea {
+        overflow-x: auto;
+        padding: 0.4em;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        box-flex: 1;
+        flex: 1;
+        max-width: calc(100% - 3ex) !important;
+    }
 
-.output_subarea {
-    overflow-x: auto;
-    padding: 0.4em;
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    box-flex: 1;
-    flex: 1;
-    max-width: calc(100% - 3ex) !important;
-}
+    .output_subarea {
+        overflow-x: auto;
+        padding: 0.4em;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        box-flex: 1;
+        flex: 1;
+        max-width: calc(100% - 3ex) !important;
+    }
 
-.container .post::after {
-    position: absolute;
-    width: 15em;
-    height: 1px;
-    left: 18%;
-    bottom: 0;
-    margin: 2px;
-    background: #e5e4e1;
+    .container .post::after {
+        position: absolute;
+        width: 15em;
+        height: 1px;
+        left: 18%;
+        bottom: 0;
+        margin: 2px;
+        background: #e5e4e1;
 
-}
+    }
 
 }
 
