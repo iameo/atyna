@@ -3,8 +3,7 @@
         <article class="post">
         <div class="inner">
             <header class="post-header">
-                <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a>
-                </h2>
+                <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a></h2>
                 <span class="post-meta">
                     <i class="fa fa-user"></i>
                     {% for author in article.authors %}
@@ -19,20 +18,18 @@
                 <div class="clear"></div>
             </header>
 
-                <section class="post-excerpt">
-		{% if article.summary %}
-		     {{ article.summary|truncate(400) }}
-		{% else %}
-		     {{ article.content|truncate(400) }}
-		{% endif %}
-		</section>
-		<div class="extras">
-			<div>
-          <a href="{{ SITEURL }}/{{ article.url }}" class="continue_reading">Read This</a>
-                	</div>
+            <section class="post-excerpt">
+                {% if article.summary %}
+                    {{ article.summary|truncate(400) }}
+                {% else %}
+                    {{ article.content|truncate(400) }}
+                {% endif %}
+		    </section>
+		    <div class="extras">
+                <a href="{{ SITEURL }}/{{ article.url }}" class="continue_reading">Read This</a>
         	</div>  
             {% include 'partials/comments_count.html' %}
-            </div>
+        </div>
         </article>
     {% endfor %}
 
