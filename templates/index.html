@@ -21,8 +21,10 @@
         </nav>
      
         <h1 class="blog-name"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
-        {% if SITESUBTITLE %}
+        {% if SITESUBTITLE and SHOW_SUBTITLE_ON_HOMEPAGE %}
         <span class="blog-description">{{ SITESUBTITLE }}</span>
+        {% else %}
+        <span class="blog-description" style="display:none;"></span>
         {% endif %}
     </header>
 {% endblock header %}
